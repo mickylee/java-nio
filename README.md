@@ -19,7 +19,7 @@ Channel，Buffer 和 Selector 构成了核心的API。其它组件，如Pipe和F
 
 JAVA NIO中的一些主要Channel的实现：
 
-    FileChannel			从文件中读写数据
+    FileChannel				从文件中读写数据
     DatagramChannel			通过UDP读写网络中的数据
     SocketChannel			通过TCP读写网络中的数据
     ServerSocketChannel		可以监听新进来的TCP连接，像Web服务器那样。对每一个新进来的连接都会创建一个SocketChannel
